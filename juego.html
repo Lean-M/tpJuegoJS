@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>juego js</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/estilo.css" />
+</head>
+<body>
+    <h1>Tarazara Memory Game</h1>
+    <button id="iniciar">iniciar juego</button>
+ 
+    
+    <div class="oculto" id="c">
+        <div>
+            <img src="imagen/oculta.jpg" alt="" id="carta_0">
+            <button id="opcion_1">seleccione</button>
+        </div>
+        <div>
+            <img src="imagen/oculta.jpg" alt="" id="carta_1">
+            <button id="opcion_2">seleccione</button>
+        </div>
+        <div>
+            <img src="imagen/oculta.jpg" alt="" id="carta_2">
+            <button id="opcion_3">seleccione</button>
+        </div>
+        <div>
+            <img src="imagen/oculta.jpg" alt="" id="carta_3">
+            <button id="opcion_4">seleccione</button>
+        </div>
+        <div>
+            <img src="imagen/oculta.jpg" alt="" id="carta_4">
+            <button id="opcion_5">seleccione</button>
+        </div>
+
+        <table>
+            <tr>
+                <td>
+                    Aciertos
+                </td>
+                
+                <td>
+                    Perdidas
+                </td>
+            </tr>
+            <tr>
+                <td id="AciertosParciales">
+                    0
+                </td>
+    
+                <td id="PerdidasParciales">
+                    0
+                </td>
+            </tr>
+           </table>
+
+    </div>
+    <table>
+        <tr>
+            <td>
+                Numero Partida
+            </td>
+
+            <td>
+                Aciertos
+            </td>
+            
+            <td>
+                Perdidas
+            </td>
+        </tr>
+        <tr>
+            <td id="Numero_Partida">
+                0
+            </td>
+            
+            <td id="Aciertos">
+                0
+            </td>
+
+            <td id="Perdidas">
+                0
+            </td>
+        </tr>
+       </table>
+    <script src="js/comportamiento.js"></script>
+</body>
+</html>

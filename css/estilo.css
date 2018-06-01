@@ -1,0 +1,52 @@
+body{
+    background-image: url(../imagen/tecno_corazon_2.jpg)
+}
+
+h1{
+    color: cadetblue;
+    margin-left: 30%;
+}
+
+#iniciar{
+    margin-left:40%;
+}
+
+button{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+img{
+    width: 150px;
+    margin-left: 10%;
+}
+
+.contenedor{
+    display: inline-block;
+    width: 100%;
+    margin:30px;
+
+}
+div{
+    display: inline-block;
+    margin: 0%;
+    width: 19%;
+    
+}
+
+
+
+table{
+    margin: 5%;
+    margin-left: 35%;
+
+}
+
+td,tr,table{
+    border: solid cadetblue;
+    color : cadetblue;
+}
+
+.oculto{
+    display: none;
+}
